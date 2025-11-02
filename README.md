@@ -8,7 +8,7 @@
 
 1. [强化学习（Reinforcement Learning）学习笔记](https://cheng-1018.github.io/RL-)
 2. [AI原理学习笔记](https://cheng-1018.github.io/AIPrincipleNote)
-
+3. [前端learn](https://cheng-1018.github.io/architectural/)
 ## 设计作品：
 
 <div align="center">
@@ -20,3 +20,4 @@
 
 1. [作业赏析](http://kindou.asia:5001/)
 2. [笔记Knoledge](http://kindou.asia:5000/)
+3. [作品集网站](http://kindou.asia:5003/)
