@@ -9,7 +9,8 @@
 1. [强化学习（Reinforcement Learning）学习笔记](https://cheng-1018.github.io/RL-)
 2. [AI原理学习笔记](https://cheng-1018.github.io/AIPrincipleNote)
 3. [前端learn](https://cheng-1018.github.io/architectural/)
-4. [machinelearning](https://github.com/Cheng-1018/machinelearning),感兴趣有时间就写。
+4. [machinelearning](https://cheng-1018.github.io/machinelearning/),感兴趣有时间就写。
+
 ## 设计作品：
 
 <div align="center">
