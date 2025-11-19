@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="一次抽四支的个人学习笔记和博客">
+    <title>一次抽四支</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- 主容器：左右分栏布局 -->
+    <div class="main-container">
+        <!-- 左侧个人信息栏 -->
+        <aside class="sidebar">
+            <div class="sidebar-content">
+                <div class="avatar-container">
+                    <img src="images/avatar.png" alt="Profile Avatar" class="avatar">
+                </div>
+                <h1 class="profile-name">一次抽四支</h1>
+                <!-- <p class="profile-subtitle">AI & Machine Learning 学习者</p> -->
+
+                <div class="profile-description">
+                    <p>一些学习笔记</p>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/Cheng-1018" target="_blank" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:contact@example.com" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+
+                <div class="skills">
+                    <h3>随便整整</h3>
+                    <div class="skill-tags">
+                        <!-- <span class="skill-tag">强化学习</span>
+                        <span class="skill-tag">深度学习</span>
+                        <span class="skill-tag">AI Agent</span>
+                        <span class="skill-tag">机器学习</span>
+                        <span class="skill-tag">前端开发</span> -->
+                    </div>
+                </div>
+
+                <div class="sidebar-footer">
+                    <p>&copy; 2025 一次抽四支</p>
+                </div>
+            </div>
+        </aside>
+
+        <!-- 右侧内容区域 -->
+        <main class="content-area">
+            <!-- 移动端菜单按钮 -->
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- 学习笔记列表 -->
+            <div class="notes-container">
+                <h1 class="page-title">Notebook</h1>
+
+                <!-- 强化学习 -->
+                <section class="note-section">
+                    <h2>
+                        <a href="https://cheng-1018.github.io/RL-" target="_blank">
+                            1. 强化学习（Reinforcement Learning）学习笔记 →
+                        </a>
+                    </h2>
+                    <ul class="note-list">
+                        <li><strong>马尔可夫决策过程</strong> - 马尔可夫性质、马尔可夫奖励过程、马尔可夫决策过程、价值函数与贝尔曼方程、策略迭代与价值迭代</li>
+                        <li><strong>表格型方法</strong> - 蒙特卡洛方法、时序差分学习、Q-Learning算法、Sarsa算法、免模型预测与控制</li>
+                        <li><strong>策略梯度</strong> - 策略梯度定理、REINFORCE算法</li>
+                        <li><strong>PPO算法</strong> - PPO-Clip、PPO-Penalty、TRPO</li>
+                        <li><strong>DQN介绍</strong> - 状态价值函数、动作价值函数、目标网络、探索、经验回放</li>
+                        <li><strong>DQN进阶技巧</strong> - DDQN、dueling DQN、PER、TD(N)、噪声网络、分布式Q函数、彩虹</li>
+                        <li><strong>连续动作DQN</strong> - 对动作采样、梯度上升、设计网络架构</li>
+                        <li><strong>演员-评论员</strong> - 优势演员-评论员、异步演员-评论员、路径衍生策略梯度</li>
+                        <li><strong>稀疏奖励与模仿学习</strong> - 课程学习、逆向课程学习、分层强化学习、行为克隆、逆强化学习</li>
+                        <li><strong>DDPG</strong> - DDPG、Twin Delayed DDPG</li>
+                    </ul>
+                </section>
+
+                <!-- AI原理 -->
+                <section class="note-section">
+                    <h2>
+                        <a href="https://cheng-1018.github.io/AIPrincipleNote" target="_blank">
+                            2. AI原理学习笔记 →
+                        </a>
+                    </h2>
+                    <ul class="note-list">
+                        <li><strong>Transformer</strong> - Embedding、位置编码、注意力机制、FNN、LayerNorm、训练预测</li>
+                        <li><strong>预训练语言模型</strong> - Encoder Only: BERT, RoBERTa, ALBERT；Encoder-Decoder: T5；Decoder:
+                            GPT, LLaMA, GLM</li>
+                        <li><strong>大模型训练</strong> - Pretrain、SFT、RLHF: PPO, DPO</li>
+                        <li><strong>分词算法</strong> - BPE、WordPiece、Unigram</li>
+                        <li><strong>网络训练优化</strong> - SGD、AdaM、BN, LN归一化、参数初始化、正则化</li>
+                        <li><strong>其他架构</strong> - MOE、ROPE、MLA</li>
+                        <li><strong>解码策略</strong> - 贪心搜索、波束搜索、TopK 采样</li>
+                        <li><strong>模型压缩</strong> - 数据类型、量化方法、知识蒸馏、低秩分解</li>
+                    </ul>
+                </section>
+
+                <!-- AI Agent -->
+                <section class="note-section">
+                    <h2>
+                        <a href="https://cheng-1018.github.io/AIAgent/" target="_blank">
+                            3. AI Agent学习笔记 →
+                        </a>
+                    </h2>
+                    <ul class="note-list">
+                        <li><strong>经典智能体范式</strong> - ReAct、Plan and Solve、Reflect</li>
+                        <li><strong>框架介绍</strong> - AutoGen、AgentScope、CAMEL、LangGraph</li>
+                        <li><strong>框架开发实践</strong> - Agent Tool Memory RAG protocol</li>
+                        <li><strong>智能体评估</strong> - BenchMark BFCL GAIA</li>
+                        <li><strong>智能体实践</strong> - //TODO</li>
+                    </ul>
+                </section>
+
+                <!-- Machine Learning -->
+                <section class="note-section">
+                    <h2>
+                        <a href="https://cheng-1018.github.io/machinelearning/" target="_blank">
+                            4. Machine Learning <span class="note-tag">感兴趣有时间就写</span> →
+                        </a>
+                    </h2>
+                    <ul class="note-list">
+                        <li><strong>数学基础补充</strong> - 拉格朗日乘子法、多元高斯分布</li>
+                        <li><strong>感兴趣的补充</strong> - EM算法</li>
+                        <li><strong>SVM</strong> - 基本型、对偶问题、核函数、软间隔与SVR</li>
+                        <li><strong>贝叶斯</strong> - 贝叶斯决策论、极大似然估计、朴素贝叶斯</li>
+                    </ul>
+                </section>
+
+                <!-- 前端学习 -->
+                <section class="note-section">
+                    <h2>
+                        <a href="https://cheng-1018.github.io/architectural/" target="_blank">
+                            5. 前端学习 →
+                        </a>
+                    </h2>
+                </section>
+            </div>
+
+        </main>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
