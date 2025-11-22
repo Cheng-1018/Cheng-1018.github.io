@@ -108,3 +108,13 @@ backToTopButton.addEventListener('mouseenter', () => {
 backToTopButton.addEventListener('mouseleave', () => {
     backToTopButton.style.transform = 'scale(1) translateY(0)';
 });
+
+// ============================================
+// 动态更新年份
+// ============================================
+document.addEventListener('DOMContentLoaded', () => {
+    const yearSpan = document.getElementById('current-year');
+    if (yearSpan) {
+        yearSpan.textContent = new Date().getFullYear();
+    }
+});
